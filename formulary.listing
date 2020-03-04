@@ -1,0 +1,7 @@
+  cd *~*/.ssh
+  vim config
+  # enter the following into the file
+  Host a_name
+       HostName *\optc{hostname}*
+       User *\optc{username}*
+       IdentityFile *\optc{.ssh/id\_rsa\_key\_name}*
